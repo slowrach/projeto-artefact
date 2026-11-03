@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+body {
+  background-color: #38404c;
+  display: grid;
+  justify-content: center;
+  margin-top: 200px;
+}
