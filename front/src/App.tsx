@@ -1,9 +1,9 @@
 
-function App() {
+export function App() {
   return (
     <main className='w-120'>
       <div className="flex mb-10">
-        <input className="bg-white w-full p-2 rounded-l-md outline-none" type="text" placeholder='tire sua dúvida aqui' />
+        <input className="bg-white w-full p-2 rounded-l-md outline-none" type="text" placeholder='tire sua dúvida aqui' value={"question"} />
         <button className="p-2 bg-gray-400 hover:opacity-50 hover:cursor-pointer font-medium rounded-r-md">Enviar</button>
       </div>
 
